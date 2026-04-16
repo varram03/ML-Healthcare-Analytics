@@ -12,7 +12,7 @@ from sklearn.metrics import mean_absolute_percentage_error
 try:
     # Load dataset
     print("Loading the dataset")
-    file_path = "C:/Users/varra/OneDrive/Documents/ML Proj/Insurance CaseStudy/insurancedata.csv"
+    file_path = "insurancedata.csv"
     data = pd.read_csv(file_path)
 
     # Handling Missing Values

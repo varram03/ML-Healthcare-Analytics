@@ -8,7 +8,7 @@ try:
     from sklearn.preprocessing import StandardScaler
 
     # Load the data
-    data = pd.read_csv('C:/Users/varra/OneDrive/Documents/ML Proj/Cancer CaseStudy/wisc_bc_data.csv')
+    data = pd.read_csv('wisc_bc_data.csv')
     print("Columns in dataset:", data.columns)
     print("First few rows:\n", data.head())
     print("Load the data")
